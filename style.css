@@ -1,0 +1,54 @@
+               
+body{
+       background-color:#d9e7fcea;
+       font-family: "lora-regular", serif;
+       
+      }
+ #banner{ 
+            height: 100%;
+            width: 100%;
+         }        
+ #2{ 
+            height: 100%;
+            width: 100%;
+         }               
+ #3{ 
+            height: 100%;
+            width: 100%;
+         }        
+ #4{ 
+            height: 100%;
+            width: 100%;
+         }        
+ #5{ 
+            height: 100%;
+            width: 100%;
+         }        
+ #6{ 
+            height: 100%;
+            width: 100%;
+         }        
+ p{                
+     text-align: center 
+   }    
+     
+ h1  { 
+       text-align: center;
+       border: 2px solid #000000; 
+      
+       }
+ #missao{
+     font-size: 20px
+   }
+ h2  { 
+      text-align: center
+      }  
+ #valores{
+      font-size: 25px
+   }   
+        
+ em strong{
+             color:black
+            }
+
+   
