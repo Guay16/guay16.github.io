@@ -1,50 +1,73 @@
-<!DOCTYPE html>
-<html lang="pt-br"> 
-    <head >
-        <meta charset="UTF-8">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifólio </title>        
-        <link rel="stylesheet" href="Assets\style\reset.css"> 
-        <link rel="stylesheet" href="Assets\style\style.css">     
-        
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="menu">
-                    <li class="menu__item">
-                        <h1 class="menu__titulo"></h1>
-                    </li>
-                    <li class="menu__item"><a href="root\projetos.HTML" class="">projetos</a></li>
-                    <li class="menu__item"> <a href="#">valores</a></li>
-                </ul>
-            </nav>
-        </header>
-    <body>
+<!DOCTYPE html> <!-- Define o tipo de documento HTML -->
+<html lang="pt-br"> <!-- Define o idioma do site -->
 
-       <!-- 'em comentario para melhorar depois:> <img id= banner src="Assets\img\1_eEo6awRDbpn4qM7S9FMexg.png" alt="1_eEo6awRDbpn4qM7S9FMexg.png";> ' -->
-        <header> 
-            <h1 class= "Titulo principal"> <strong> Sobre mim </strong></h1> 
-        </header>
-        
-            <div class="sobre">  
-             
+<head> <!-- Cabeçalho do documento -->
+	<meta charset="UTF-8"> <!-- Define o conjunto de caracteres para o documento -->
+	<title>Meu Portfólio</title> <!-- Título da página, exibido na aba do navegador -->
+	<meta name="description" content="Meu portfólio de trabalhos"> <!-- Descrição da página, exibida nos resultados de busca -->
+	<link rel="stylesheet" href="estilo.css"> <!-- Arquivo CSS externo para estilização da página -->
+</head>
 
-              <p> Oi, Eu sou o Guayraçú. Mas pode me chamar de Miranda, é mais fácil.</p>
-              <p> Nascido em São José dos Pinhais e morando em Curitiba há 20 anos, sou apaixonado por conhecimento e estou sempre aprendendo coisas novas. Iniciei minha carreira trabalhando como Help Desk bilingue em um call center da BRTCC, já fui auxiliar de edição de vídeos e fitotecário, trabalho com traduções da língua inglesa e atualmente sou um Analista comercial Junior, procurando meu espaço na área de desenvolvimento de sites, sistemas e testes mobile.</p>
-              
-              <p id="valores"> <strong>  Meus Valores: </strong> </p>
-              <p> <strong> Esforço:</strong> O esforço é uma das principais maneiras de crescer profissionalmente, mentalmente e pessoalmente. Dedico muito do meu esforço pessoal em meus conhecimentos para poder entregar o maior e melhor resultado possível. </p>
-              <p> <strong> Ética:</strong> A Ética é parte do caráter humano. É a arte de bem proceder e prosperar pelo resultado de ações boas e coerentes.  Pela ética, provamos valores, alinhamentos e a dignidade para continuar resilientes e corretos. </p>
-              <p> <strong> Saber:</strong> O saber nunca é e nem será o bastante. É aprendendo todo dia, que chegamos em nosso ápice. O amor pelo conhecimento é algo que cultivo e gosto de aprender. Aprendo rápido e tento desenvolver minhas habilidades sempre para que possa estar no meu desempenho de "110%" para meus projetos. </p>
-    </div>
-    
-    
-    
-    
-    </body>
+<body> <!-- Corpo do documento -->
 
+	<header> <!-- Cabeçalho da página -->
+		<h1>Meu Portfólio</h1> <!-- Título principal -->
+		<nav> <!-- Navegação da página -->
+			<ul> <!-- Lista não ordenada de links -->
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#projetos">Projetos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main> <!-- Conteúdo principal da página -->
+
+		<section id="sobre"> <!-- Seção "Sobre" -->
+			<h2>Sobre mim</h2>
+			<p>Oi, Eu sou o Guayraçú. Mas pode me chamar de Miranda, é mais fácil.
+               Eu sou um desenvolvedor web apaixonado por criar soluções criativas e eficientes para meus clientes.
+               </p>
+		</section>
+
+		<section id="projetos"> <!-- Seção "Projetos" -->
+			<h2>Meus projetos</h2>
+			<ul> <!-- Lista de projetos -->
+				<li>
+					<h3>Projeto 1</h3>
+					<p>Descrição do projeto 1</p>
+					<a href="#">Ver projeto</a>
+				</li>
+				<li>
+					<h3>Projeto 2</h3>
+					<p>Descrição do projeto 2</p>
+					<a href="#">Ver projeto</a>
+				</li>
+			</ul>
+		</section>
+
+		<section id="contato"> <!-- Seção "Contato" -->
+			<h2>Entre em contato</h2>
+			<form action="enviar.php" method="post"> <!-- Formulário de contato -->
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+
+	</main>
+
+	<footer> <!-- Rodapé da página -->
+		<p>&copy; 2023 - Meu Portfólio</p>
+	</footer>
+
+</body>
 
 </html>
