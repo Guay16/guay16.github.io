@@ -1,13 +1,14 @@
 body{
     font-family:Verdana, Geneva, sans-serif;
     font-size:12px;
-    background-color:darkgrey;
-    background-image: image(Assets\img\banner.jpg).jpg ;
+    background-color:rgb(20, 20, 22);
+    color: #ffffff
+    
    }
    
    ul {
-   margin: 0;
-    padding:0;
+   margin: 10px ;
+   padding:10px;
    }
    
    li {
@@ -21,8 +22,7 @@ body{
     border: 0px solid rgb(255, 244, 244); 
     background: rgb(0, 0, 0);
     text-decoration: none;
-    color:#FFF;
-    /* cantos arredondados */
+    color:#FFF; 
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
