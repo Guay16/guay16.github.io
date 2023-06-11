@@ -5,20 +5,34 @@
 	<meta charset="UTF-8"> <!-- Define o conjunto de caracteres para o documento -->
 	<title>Meu Portfólio</title> <!-- Título da página, exibido na aba do navegador -->
 	<meta name="description" content="Meu portfólio de trabalhos"> <!-- Descrição da página, exibida nos resultados de busca -->
-	<link rel="stylesheet" href="Assets\style\stale.css"> <!-- Arquivo CSS externo para estilização da página -->
+	<link rel="stylesheet" href="Assets\style\style.css"> <!-- Arquivo CSS externo para estilização da página -->
 </head>
 
 <body> <!-- Corpo do documento -->
-
 	<header> <!-- Cabeçalho da página -->
-		<IMG src ="Assets\img\1_eEo6awRDbpn4qM7S9FMexg.png" style="width:400px; max-width: 90%;"> 
-		<h1>Meu Portfólio</h1> <!-- Título principal -->
-		<nav> <!-- Navegação da página -->
-			<ul> <!-- Lista não ordenada de links -->
-			    <li><a href="Assets\secondary links\indexEN.html">Click here for english mode</a></li></button>
-				<li><a href="#sobre">Sobre</a></li>
-				<li><a href="#projetos">Projetos</a></li>
-				<li><a href="#contato">Contato</a></li>
+		<div class="grid-layout"> 
+			<nav> <!-- Navegação da página -->
+				<img 
+				src="Assets\img\banner.jpg"
+				Alt="Miranda"
+				width="150px"
+				height="25px"
+				/>
+				<div class="mobile-menu">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				  </div>
+				  
+				<ul class="nav-list">  <!-- Lista não ordenada de links -->
+				<li><a href="#s-home">Início</a></li>
+				<li><a href="Assets\secondary links\indexEN.html">Click here for english mode</a></li>
+				<li><a href="#s-about">Sobre</a></li>
+				<li><a href="#s-experience">Experiências</a></li>
+				<li><a href="#s-projects">Projetos</a></li>
+				<li><a href="#s-skills">Conhecimentos</a></li>
+				<li><a href="#s-skills">Contato</a></li>
+				
 			</ul>
 		</nav>
 	</header>
@@ -27,14 +41,14 @@
 	
 	<main> <!-- Conteúdo principal da página -->
 
-		<section id="sobre"> <!-- Seção "Sobre" -->
+		<section id="about"> <!-- Seção "Sobre" -->
 			<h2>Sobre mim</h2>
 			<p>Oi, Eu sou o Guayraçú. Mas pode me chamar de Miranda, é mais fácil.
                Eu sou um desenvolvedor web apaixonado por criar soluções criativas e eficientes para meus clientes.
             </p>
 		</section>
 
-		<section id="projetos"> <!-- Seção "Projetos" -->
+		<section id="projects"> <!-- Seção "Projetos" -->
 			<h2>Meus projetos</h2>
 			<ul> <!-- Lista de projetos -->
 				<li>
