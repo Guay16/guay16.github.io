@@ -1,0 +1,97 @@
+<!DOCTYPE html> <!-- Define o tipo de documento HTML -->
+<html lang="pt-br"> <!-- Define o idioma do site -->
+
+<head> <!-- Cabeçalho do documento -->
+	<meta charset="UTF-8"> <!-- Define o conjunto de caracteres para o documento -->
+	<title>Meu Portfólio</title> <!-- Título da página, exibido na aba do navegador -->
+	<meta name="description" content="Meu portfólio de trabalhos"> <!-- Descrição da página, exibida nos resultados de busca -->
+	<link rel="stylesheet" href="Assets\style\style.css"> <!-- Arquivo CSS externo para estilização da página -->
+	<!--<link 
+		rel="shortcut icon"
+		href="Assets\img\logo sem textura (20230609024308).png"
+		type="image/x-icon"//
+  	/>
+  <link rel="icon" href="Assets\img\logo sem textura (20230609024308).png"/>
+  <link rel="apple-touch-icon" href="Assets\img\logo sem textura (20230609024308).png" />
+  <link rel="canonical" href="https://guay16.github.io/" /> -->
+
+</head>
+
+<body> <!-- Corpo do documento -->
+	<header> <!-- Cabeçalho da página -->
+		<div class="grid-layout"> 
+			<nav> <!-- Navegação da página -->
+			<img src="Assets\img\logo sem textura (20230609024308).png" alt="GPM" width="40px" height="40px">
+				
+						<div class="mobile-menu">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+	
+					</div>
+			</nav>
+
+		    <ul id="nav-list">  <!-- Lista não ordenada de links -->
+						
+				<li><a href="#https://guay16.github.io/">Início</a></li>
+				<li><a href="#s-about">Sobre</a></li>
+				<li><a href="#s-projetos">Projetos</a></li>
+				<li><a href="#s-about">Habilidades</a></li>
+				<li><a href="https://github.com/Guay16">Meu Github</a></li>
+				<li><a href="Assets\secondary links\indexEN.html">Click here for english mode</a></li>
+			
+			</ul>   
+	</header>
+
+
+	
+	<main> <!-- Conteúdo principal da página -->
+
+		<section id="about"> <!-- Seção "Sobre" -->
+			<h2>Sobre mim</h2>
+			<p>Oi, Eu sou o Guayraçú. Mas pode me chamar de Miranda, é mais fácil.
+               Eu sou um desenvolvedor web apaixonado por criar soluções criativas e eficientes para meus clientes.
+            </p>
+		</section>
+
+		<section id="projects"> <!-- Seção "Projetos" -->
+			<h2>Meus projetos</h2>
+			<ul> <!-- Lista de projetos -->
+				<li>
+					<h3>Projeto 1</h3>
+					<p>Descrição do projeto 1</p>
+					<a href="#">Ver projeto</a>
+				</li>
+				<li>
+					<h3>Projeto 2</h3>
+					<p>Descrição do projeto 2</p>
+					<a href="#">Ver projeto</a>
+				</li>
+			</ul>
+		</section>
+
+		<section id="contato"> <!-- Seção "Contato" -->
+			<h2>Entre em contato</h2>
+			<form action="enviar.php" method="post"> <!-- Formulário de contato -->
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+
+	</main>
+
+	<footer> <!-- Rodapé da página -->
+		<p>&copy; 2023 - Meu Portfólio</p>
+	</footer>
+
+</body>
+
+</html>
